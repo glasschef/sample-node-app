@@ -7,7 +7,7 @@
 #
 # To learn more about the run hook, its conventions and other available lifecycle
 # hooks, see the docs at https://www.habitat.sh/docs/reference/#available-hooks.
-
+echo "OUTPUT GOES HERE"
 exec node \
   {{ pkg.path }}/app/index.js \
   {{ pkg.svc_config_path }}/config.json 
